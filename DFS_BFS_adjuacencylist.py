@@ -37,7 +37,7 @@ graph = [
 ]
 
 visited = [False]*len(graph)
-
-dfs(graph, 1, visited)
-
 bfs(graph, 1, visited)
+print("\n")
+visited = [False]*len(graph)
+dfs(graph, 1, visited)
